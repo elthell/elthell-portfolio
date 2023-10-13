@@ -10,47 +10,63 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="./public/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
   </head>
   <body>
     <header id="header" class="position-fixed top-0 start-0 h-100">
       <nav class="navbar navbar-expand-lg d-block">
-        <a class="nav-link navbar-brand text-center m-2 p-2" href="/"
-          ><p class="text-center p-3 fs-3 fw-bold">
-            Eleanor <br />
-            Thell
-          </p></a
-        >
+        <p class="text-center p-3 fs-3 fw-bold">
+          Eleanor <br />
+          Thell
+        </p>
         <ul class="navbar-nav d-flex flex-column justify-content-center">
           <li id="nav-btn" class="nav-item mt-4 py-2">
-            <a id="about-btn" class="nav-link text-center" href="/about">About</a>
+            <a id="about-btn" class="nav-link text-center" href="#about">About</a>
           </li>
           <li id="nav-btn" class="nav-item mt-4 py-2">
-            <a id="work-btn" class="nav-link text-center" href="/work">Work</a>
+            <a id="work-btn" class="nav-link text-center" href="#work">Work</a>
           </li>
           <li id="nav-btn" class="nav-item mt-4 py-2">
-            <a id="contact-btn" class="nav-link text-center" href="/contact">Contact</a>
+            <a id="contact-btn" class="nav-link text-center" href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main id="main" class="position-absolute h-100 w-100">
-      <section id="about" class="text-center">
-        <!--about section-->
-        <p class="fs-3 fw-bold">About</p>
-        <div>
-          <p>
-            Hi, I'm Eleanor!
-            <br>
-            I'm a data-driven, life-long learner looking to make a career shift into tech -
-            <br> 
-            skilled in customer service and data entry with growing skills in full stack web development.
-          </p>
+    <main id="main" class="position-absolute">
+
+      <section
+        id="about"
+        class="vh-100 d-flex justify-content-center align-items-center">
+        <div id="about-text" class="p-4 shadow">
+          <p class="fs-3 fw-bold text-center">About</p>
+          <div class="row">
+            <i
+              id="dk-leaf"
+              class="col fa-solid fa-leaf fa-flip-horizontal fa-5x"
+            ></i>
+            <p class="col-8">
+              Hi, I'm Eleanor!
+              <br />
+              I'm a data-driven, life-long learner looking to make a career
+              shift into tech -
+              <br />
+              skilled in customer service and data entry with growing skills in
+              full stack web development.
+            </p>
+            <i id="dk-leaf" class="col fa-solid fa-leaf fa-5x"></i>
+          </div>
         </div>
       </section>
+
+      <section id="work" class="vh-100"></section>
+
+      <section id="contact" class="vh-100"></section>
     </main>
 
+    <script
+      src="https://kit.fontawesome.com/69aa495313.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
-
 </html>

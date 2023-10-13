@@ -12,11 +12,11 @@
     padding: 0;
   }
 
-  /* main.handlebars */
+  /* header */
   #header {
     z-index: 1;
     width: 15rem;
-    border-right: 20px solid;
+    border-right: 25px solid;
     border-color: var(--green-2);
     background-color: var(--light);
   }
@@ -28,16 +28,32 @@
   #nav-btn {
     background-color: var(--green-2);
   }
+  #nav-btn:hover {
+    font-weight: bold;
+    border: 5px solid;
+    border-color: var(--green-1);
+  }
 
+  /* main */
   #main {
+    width: calc(100% - 15rem);
     margin-left: 15rem;
-    padding: 2rem;
-    border-left: 20px solid;
+    border-left: 25px solid;
     border-color: var(--green-1);
     background-color: var(--dark);
   }
 
-  /* about.handlebars */
+  /* about */
   #about {
-    color: var(--light)
+    color: var(--light);
+  }
+
+  #about-text {
+    border: 5px dotted;
+    border-color: var(--light);
+    border-radius: 30px ;
+  }
+
+  #dk-leaf {
+    color: var(--green-1);
   }
