@@ -88,6 +88,9 @@
   .card-body {
     margin-bottom: 1rem;
   }
+  .card-title {
+    color: var(--green-1)
+  }
   .card-link {
     color: var(--dark);
     text-decoration: none;
