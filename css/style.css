@@ -12,6 +12,23 @@
     padding: 0;
   }
 
+  /* icons */
+  .flower {
+    color: var(--pink);
+  }
+  .dk-leaf {
+    color: var(--green-1);
+  }
+  .link {
+    color: var(--green-2);
+  }
+  .link:hover {
+    transition: 1s ease-in-out;
+    color: var(--pink);
+    transform: scale(2);
+    margin: 2rem;
+  }
+
   /* header */
   #header {
     z-index: 1;
@@ -20,18 +37,16 @@
     border-color: var(--green-2);
     background-color: var(--light);
   }
-
+  /* nav */
   nav {
-    color: var(--dark)
+    color: var(--dark);
   }
-
   #nav-btn {
     background-color: var(--green-2);
   }
   #nav-btn:hover {
     font-weight: bold;
-    border: 5px solid;
-    border-color: var(--green-1);
+    background-color: var(--pink);
   }
 
   /* main */
@@ -47,13 +62,43 @@
   #about {
     color: var(--light);
   }
-
-  #about-text {
+  .section-text {
     border: 5px dotted;
-    border-color: var(--light);
+    border-color: var(--green-2);
     border-radius: 30px ;
   }
 
-  #dk-leaf {
-    color: var(--green-1);
+  /* work */
+  #work {
+    color: var(--light);
+  }
+
+  /* card */
+  .card {
+    color: var(--light); 
+    background-color: var(--dark);
+    border: 5px dotted;
+    border-color: var(--green-2);
+    border-radius: 30px ;
+  }
+  .card-header {
+    border-bottom: 1px solid;
+    border-color: var(--green-2);
+  }
+  .card-body {
+    margin-bottom: 1rem;
+  }
+  .card-link {
+    color: var(--dark);
+    text-decoration: none;
+    background-color: var(--green-2);
+    border-radius: 15px ;
+  }
+  .card-link:hover {
+    background-color: var(--pink);
+  }
+
+  /* contact */
+  #contact {
+    color: var(--light);
   }
