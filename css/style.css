@@ -45,7 +45,7 @@
     background-color: var(--green-2);
   }
   #nav-btn:hover {
-    font-weight: bold;
+    transition: 1s ease;
     background-color: var(--pink);
   }
 
@@ -95,6 +95,7 @@
     border-radius: 15px ;
   }
   .card-link:hover {
+    transition: 1s ease;
     background-color: var(--pink);
   }
 
