@@ -75,6 +75,9 @@
 
   /* card */
   .card {
+    width: 30rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
     color: var(--light); 
     background-color: var(--dark);
     border: 5px dotted;
