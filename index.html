@@ -15,9 +15,9 @@
 
   <body>
     <!-- header -->
-    <header id="header" class="position-fixed top-0 start-0 h-100">
-      <nav class="navbar navbar-expand-lg d-block">
-        <p class="text-center p-3 fs-3 fw-bold">
+    <header id="header">
+      <nav class="navbar d-block">
+        <p class="navbar-brand text-center p-3 fs-3 fw-bold">
           Eleanor <br />
           Thell
         </p>
@@ -43,128 +43,172 @@
       <!-- about -->
       <section
         id="about"
-        class="vh-100 d-flex justify-content-center align-items-center"
+        class="vh-100 d-flex justify-content-center align-items-center m-3"
       >
-        <div class="section-text p-4 shadow">
+        <div class="section-text p-3 shadow">
           <p class="section-title fs-3 fw-bold text-center">
             <i class="flower fa-solid fa-fan"></i>
             About
           </p>
           <div class="row">
             <i
-              class="dk-leaf col fa-solid fa-leaf fa-flip-horizontal fa-5x"
+              class="dk-leaf col-2 fa-solid fa-leaf fa-flip-horizontal fa-5x text-center"
             ></i>
             <p class="col-8 fs-6">
               Hi, I'm Eleanor!
               <br />
-              Data-driven, life-long learner looking to bring a History B.A.'s love of documentation 
-              and presenting information to a career shift into tech.
+              Data-driven, life-long learner looking to bring a History B.A.'s
+              love of documentation and presenting information to a career shift
+              into tech.
               <br />
-                •  skilled in customer service and data entry with growing skills in
-              full stack web development.
+              • skilled in customer service and data entry with growing skills
+              in full stack web development.
             </p>
-            <i class="dk-leaf col fa-solid fa-leaf fa-5x"></i>
+            <i class="dk-leaf col-2 fa-solid fa-leaf fa-5x text-center"></i>
           </div>
         </div>
       </section>
 
       <!-- work -->
-      <section id="work" class="vh-100 m-5 px-5">
+      <section id="work" class="mx-auto">
         <p class="section-title fs-3 fw-bold text-center py-2 my-2">
           <i class="flower fa-solid fa-fan"></i>
           Work
         </p>
 
         <!-- row 1-->
-        <div class="row">
-            <!-- Card 1 -->
-            <div class="card text-center shadow">
-              <div class="card-header">Node.js • MySQL • Handlebars.js</div>
-              <img src="" class="card-img-top" alt="" />
-              <div class="card-body">
-                <h5 class="card-title">Dad-icated</h5>
-                <!-- <p class="pt-1">• • •</p> -->
-                <p class="card-text pb-2">
-                  A dad joke ranking application where users can create a profile to see dad jokes,
-                 as well as vote on them and submit their own.
-                </p>
-                <a href="https://github.com/Dtrieu1/DAD-ICATED" class="card-link p-3">
-                  <i class="fa-solid fa-code"></i> Code</a>
-                <a href="https://dad-icated-6a2b4854840e.herokuapp.com/" class="card-link p-3">
-                  <i class="fa-solid fa-window-restore"></i> Live</a>
-              </div>
+        <div class="card-row row">
+          <!-- Card 1 -->
+          <div class="card text-center shadow">
+            <div class="card-header">Node.js • MySQL • Handlebars.js</div>
+            <img src="" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Dad-icated</h5>
+              <!-- <p class="pt-1">• • •</p> -->
+              <p class="card-text pb-2">
+                A dad joke ranking application where users can create a profile
+                to see dad jokes, as well as vote on them and submit their own.
+              </p>
+              <a
+                href="https://github.com/Dtrieu1/DAD-ICATED"
+                class="card-link p-3"
+              >
+                <i class="fa-solid fa-code"></i> Code</a
+              >
+              <a
+                href="https://dad-icated-6a2b4854840e.herokuapp.com/"
+                class="card-link p-3"
+              >
+                <i class="fa-solid fa-window-restore"></i> Live</a
+              >
             </div>
+          </div>
 
-            <!-- Card 2 -->
-            <div class="card text-center shadow">
-              <div class="card-header">Javascript • HTML • Bulma • Spoonacular API</div>
-              <img src="" class="card-img-top" alt="" />
-              <div class="card-body">
-                <h5 class="card-title">Food Finder</h5>
-                <p class="card-text pb-2">
-                  Utilizing the Spoonacular API, the application allows users to search and save recipes, as well as 
-                  find local food of the same cuisine as the recipes they've saved.
-                </p>
-                <a href="https://github.com/Thinker92/FoodFinder" class="card-link p-3">
-                  <i class="fa-solid fa-code"></i> Code</a>
-                <a href="https://thinker92.github.io/FoodFinder/" class="card-link p-3">
-                  <i class="fa-solid fa-window-restore"></i> Live</a>
-              </div>
+          <!-- Card 2 -->
+          <div class="card text-center shadow">
+            <div class="card-header">
+              Javascript • HTML • Bulma • Spoonacular API
             </div>
-
-            <!-- Card 3 -->
-            <div class="card text-center shadow">
-              <div class="card-header">HTML • CSS</div>
-              <img src="" class="card-img-top" alt="" />
-              <div class="card-body">
-                <h5 class="card-title">Portfolio v.1</h5>
-                <p class="card-text pb-2">
-                  A previous version of a portfolio to showcase my skills and talents to employers 
-                  through a detailed about section, interactive project display, and contact links
-                </p>
-                <a href="https://github.com/elthell/portfolio" class="card-link p-3">
-                  <i class="fa-solid fa-code"></i> Code</a>
-                <a href="https://elthell.github.io/portfolio/" class="card-link p-3">
-                  <i class="fa-solid fa-window-restore"></i> Live</a>
-              </div>
+            <img src="" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Food Finder</h5>
+              <p class="card-text pb-2">
+                Utilizing the Spoonacular API, the application allows users to
+                search and save recipes, as well as find local food of the same
+                cuisine as the recipes they've saved.
+              </p>
+              <a
+                href="https://github.com/Thinker92/FoodFinder"
+                class="card-link p-3"
+              >
+                <i class="fa-solid fa-code"></i> Code</a
+              >
+              <a
+                href="https://thinker92.github.io/FoodFinder/"
+                class="card-link p-3"
+              >
+                <i class="fa-solid fa-window-restore"></i> Live</a
+              >
             </div>
+          </div>
 
-            <!-- Card 4 -->
-            <div class="card text-center shadow">
-              <div class="card-header">• work in progress •</div>
-              <img src="" class="card-img-top" alt="" />
-              <div class="card-body">
-                <h5 class="card-title">Tech Blog</h5>
-                <p class="card-text pb-2">
-                  A CMS-style blog site similar to a Wordpress site, where developers 
-                  can publish their blog posts and comment on other developers' posts as well.
-                </p>
-                <a href="https://github.com/elthell/tech-blog" class="card-link p-3">
-                  <i class="fa-solid fa-code"></i> Code</a>
-                <a href="" class="card-link p-3">
-                  <i class="fa-solid fa-window-restore"></i> Live</a>
-              </div>
+          <!-- Card 3 -->
+          <div class="card text-center shadow">
+            <div class="card-header">HTML • CSS</div>
+            <img src="" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Portfolio v.1</h5>
+              <p class="card-text pb-2">
+                A previous version of a portfolio to showcase my skills and
+                talents to employers through a detailed about section,
+                interactive project display, and contact links
+              </p>
+              <a
+                href="https://github.com/elthell/portfolio"
+                class="card-link p-3"
+              >
+                <i class="fa-solid fa-code"></i> Code</a
+              >
+              <a
+                href="https://elthell.github.io/portfolio/"
+                class="card-link p-3"
+              >
+                <i class="fa-solid fa-window-restore"></i> Live</a
+              >
             </div>
+          </div>
 
-            <!-- Card 5 -->
-            <div class="card text-center shadow">
-              <div class="card-header">Javascript • HTML • Bootstrap</div>
-              <img src="" class="card-img-top" alt="" />
-              <div class="card-body">
-                <h5 class="card-title">Timed Quiz</h5>
-                <p class="card-text pb-2">
-                  This application tests a user's knowledge with five questions about Warhammer 40k to answer over 45 seconds. 
-                  Wrong answers deduct time and at the end users can save their score.
-                </p>
-                <a href="https://github.com/elthell/timed-quiz" class="card-link p-3">
-                  <i class="fa-solid fa-code"></i> Code</a>
-                <a href="https://elthell.github.io/timed-quiz/" class="card-link p-3">
-                  <i class="fa-solid fa-window-restore"></i> Live</a>
-              </div>
+          <!-- Card 4 -->
+          <div class="card text-center shadow">
+            <div class="card-header">• work in progress •</div>
+            <img src="" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Tech Blog</h5>
+              <p class="card-text pb-2">
+                A CMS-style blog site similar to a Wordpress site, where
+                developers can publish their blog posts and comment on other
+                developers' posts as well.
+              </p>
+              <a
+                href="https://github.com/elthell/tech-blog"
+                class="card-link p-3"
+              >
+                <i class="fa-solid fa-code"></i> Code</a
+              >
+              <a href="" class="card-link p-3">
+                <i class="fa-solid fa-window-restore"></i> Live</a
+              >
             </div>
+          </div>
 
-            <!-- Card Ref -->
-            <!-- <div class="card text-center shadow">
+          <!-- Card 5 -->
+          <div class="card text-center shadow">
+            <div class="card-header">Javascript • HTML • Bootstrap</div>
+            <img src="" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Timed Quiz</h5>
+              <p class="card-text pb-2">
+                This application tests a user's knowledge with five questions
+                about Warhammer 40k to answer over 45 seconds. Wrong answers
+                deduct time and at the end users can save their score.
+              </p>
+              <a
+                href="https://github.com/elthell/timed-quiz"
+                class="card-link p-3"
+              >
+                <i class="fa-solid fa-code"></i> Code</a
+              >
+              <a
+                href="https://elthell.github.io/timed-quiz/"
+                class="card-link p-3"
+              >
+                <i class="fa-solid fa-window-restore"></i> Live</a
+              >
+            </div>
+          </div>
+
+          <!-- Card Ref -->
+          <!-- <div class="card text-center shadow">
               <div class="card-header">•</div>
               <img src="" class="card-img-top" alt="" />
               <div class="card-body">
@@ -178,28 +222,38 @@
                   <i class="fa-solid fa-window-restore"></i> Live</a>
               </div>
             </div> -->
-            <!-- Card -->
+          <!-- Card -->
         </div>
       </section>
 
       <!-- contact -->
       <section
         id="contact"
-        class="vh-100 d-flex justify-content-center align-items-center"
+        class="vh-100 d-flex justify-content-center align-items-center m-3"
       >
-      <div class="section-text p-4 shadow">
-        <p class="section-title fs-3 fw-bold text-center">
-          <i class="flower fa-solid fa-fan"></i>
-          Contact
-        </p>
-        <p class="fs-5 mb-4 fst-italic"> Reach out to me, I would love to hear from you!</p>
-        <div class="row px-5">
-          <a href="mailto:eleanor.thell@gmail.com" class="col"><i class="link fa-solid fa-envelope fa-4x"></i></a>
-          <a href="https://www.linkedin.com/in/eleanor-thell-b86bb6217/" class="col"><i class="link fa-brands fa-linkedin fa-4x"></i></a>
-          <a href="https://github.com/elthell" class="col"><i class="link fa-brands fa-github fa-4x"></i></a>
+        <div class="section-text p-4 shadow">
+          <p class="section-title fs-3 fw-bold text-center">
+            <i class="flower fa-solid fa-fan"></i>
+            Contact
+          </p>
+          <p class="fs-5 mb-4 fst-italic">
+            Reach out to me, I would love to hear from you!
+          </p>
+          <div class="row px-5">
+            <a href="mailto:eleanor.thell@gmail.com" class="col"
+              ><i class="link fa-solid fa-envelope fa-4x"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/eleanor-thell-b86bb6217/"
+              class="col"
+              ><i class="link fa-brands fa-linkedin fa-4x"></i
+            ></a>
+            <a href="https://github.com/elthell" class="col"
+              ><i class="link fa-brands fa-github fa-4x"></i
+            ></a>
+          </div>
         </div>
-      </div>
-
+      </section>
     </main>
 
     <script
